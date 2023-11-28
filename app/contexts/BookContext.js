@@ -1,6 +1,6 @@
+"use client"
 import React,{createContext,useReducer,useEffect} from "react";
-import {bookReducer} form '../reducers/bookReducer';
-
+import { bookReducer } from "../reducers/bookReducer";
 export const BookContext = createContext();
 
 const BookContextProvider =(props)=>{
